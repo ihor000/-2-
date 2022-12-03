@@ -2,7 +2,7 @@
 int number = Convert.ToInt32(Console.ReadLine());
 
 
-if (number >= 100)
+if (number > 100 && number < 999)
 
 {
     number = (number / 10) % 10;
