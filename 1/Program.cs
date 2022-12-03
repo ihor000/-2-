@@ -6,7 +6,6 @@ if (number > 100 && number < 999)
 
 {
     number = (number / 10) % 10;
-
     Console.Write("Вторая цифра трех значного числа: ");
     Console.WriteLine(number); 
 }
