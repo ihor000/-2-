@@ -13,7 +13,7 @@ if (number > 100 && number < 999)
 else
 
 {
-    Console.WriteLine("Число не является трех значным");
+    Console.WriteLine("Число не является трехзначным");
 }
   
 
