@@ -1,20 +1,29 @@
 ﻿Console.WriteLine("Ввидите число:");
 int number = Convert.ToInt32(Console.ReadLine());
-int number1;
-int number2;
+int result = -1;
 
-
-if (number > 100) 
 {
-    number1 = number;
-            number = number % 10;
-    Console.WriteLine(number);    
+    
+    if (number >= 100)
+    {
+        while ( number > 999)
+        {
+            number = number / 10;
+        }
+        result = number % 10;
+    Console.WriteLine(result);
+    }
+   else
+   {
+    Console.WriteLine("Введено не верное число");
+   }
 }
 
 
-else
-{
-   Console.WriteLine("Введено не верное число");
-}
+
+
+
+
+
 
 
