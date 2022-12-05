@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Ввидите число:");
 int number = Convert.ToInt32(Console.ReadLine());
-int result = -1;
+int result = 0;
 
 {
     
